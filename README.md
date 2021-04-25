@@ -1,2 +1,10 @@
 # ContactService
-Java app used to store and manage contact objects.
+# Java app to store and manage contact objects.
+
+This project was to interpret user needs and to incorporate them into a program. I did this by reading the software's functional and non-functional requirements and implementing a program that I believe fulfills these requirements as well as testing to ensure the functionality and efficiency of the program.
+
+The testing approach that I used aligned directly to the functionality of system defined by the software requirements. I used JUnit testing to test each function and the exceptions used for input validation. I used coverage percentage to ensure that the JUnit tests covered 100 percent of both the object classes and their corresponding Service classes and their methods. This was to ensure the quality of the tests. In the following examples I will show the testing method that I used for the creation of objects and their functionality which was done for each Junit test.
+
+To ensure the efficiency of the program I used HashMap(s) for the Task Service, Appointment Service, and Contact Service classes. This promises constant-time service (0)1 for add, find, update, and delete functions of all service classes. This is because there is a unique ID check when adding new objects to the HashMap 
+
+Testing always requires a critical thinking mindset and the ability to put oneself in the place of the end user. While working on this project I tried to balance the mindset of the developer with that of the end user. As a developer I want to know the limit of the code that is written and as the end user I want to know that those limits should be clearly defined so they do not interfere with heavy use of the software. This also helped to eliminate some of the bias while reviewing the code. Since I was responsible for writing the code and testing it, there is a major concern for bias. I wrote code that I think works but could be unaware of some of the effects of the logic behind it. For this reason, it is important to not cut corners and to make sure that testing provides as much coverage as possible. Testing thoroughly and Test-Driven Development is one of the ways that I can continue to avoid the technical debt as a practitioner in the field of computer science.  
